@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <title>ŚwiatFutbolu24</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="piłka.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+    <script src="jquery.js"></script>
+    <script>
+$(document).ready(function(){
+    $(".ikona-zamknij").click(function(){
+        $(this).parent().hide("slow");
+    }); 
+    $("#pokazarykuly").click(function() {
+        $(".artykyul1, .artykyul2, .artykyul3, .artykyul4").show("slow");
+    });
+});
+    
+    </script>
+</head>
+<body>
+    <header>
+        <img src="piłka.png" alt="piłka" class="pilka">
+        
+            <h1><b>ŚwiatFutbolu24</b></h1>
+            <h4 class="strona_glowna"> <a href="gazeta.html">STRONA GŁÓWNA</a> </h4>
+        
+    </header>
+    
+        <section class = "glowny">
+            <h2>Wiadomości z ostatnich 24h</h2>
+            <article class = "artykyul1">
+                <div class="ikona-zamknij">✖</div>
+                <summary class="tekst">
+                    <p><b>Cristiano Ronaldo strzelił dwa gole, przyczyniając się do zwycięstwa Al-Nassr nad Al-Ahli 4:3 w piłkarskiej ekstraklasie saudyjskiej.<br>
+                         Portugalczyk z dziewięcioma trafieniami przewodzi liście najskuteczniejszych strzelców. <a href="https://sport.interia.pl/pilka-nozna/news-cristiano-ronaldo-bohaterem-co-za-mecz-portugalczyka-w-lidze,nId,7045136">Czytaj więcej</a></b></p>
+                </summary>
+                <summary class="zdjecie">
+                    <img src="cronaldo.png" class="ronaldo" alt="ronaldo">
+                </summary>
+            </article>
+            <article class = "artykyul2">
+                <div class="ikona-zamknij">✖</div>
+                <summary class="tekst">
+                    <p><b>W niedzielny wieczór zapraszamy na relację na żywo z Derbów Madrytu. Atletico na własnym stadionie podejmie Real Madryt w ramach 6. kolejki La Liga EA Sports.
+                         "Królewscy" świetnie rozpoczęli ten sezon i z kompletem punktów przewodzą w tabeli. Dużo gorzej wygląda to w przypadku podopiecznych Diego Simeone, którzy z siedmioma punktami zajmują 7. miejsce.
+                          Która z ekip okaże się lepsza w tym spektaklu?<a href="https://www.goal.pl/transmisje/atletico-real-madryt-transmisja-tv-online-gdzie-ogladac-24092023/">Czytaj więcej</a></b></p>
+                </summary>
+                <summary class="zdjecie">
+                    <img src="belingham.png" class="ronaldo" alt="ronaldo">
+                </summary>
+            </article>
+            <article class = "artykyul3">
+                <div class="ikona-zamknij">✖</div>
+                <summary class="tekst">
+                    <p><b>Michał Probierz został w środę ogłoszony nowym selekcjonerem reprezentacji Polski. Piotr Koźmiński z Wirtualnej Polski przybliżył kulisy tego wyboru Cezarego Kuleszy. Prezes PZPN-u miał słaby
+                         kontakt z Paulo Sousą i Fernando Santosem, więc teraz chciał współpracować ze szkoleniowcem, z którym nawiąże nić porozumienia. Głos dla TVP Sport zabrał także wiceprezes Maciej Mateńko. - 
+                         Czasu jest bardzo mało i to był pewnie jeden z aspektów branych pod uwagę - powiedział. <a href="https://sport.interia.pl/reprezentacja-polski/news-oto-kulisy-zatrudnienia-michala-probierza-pzpn-bal-sie-marka,nId,7039109">Czytaj więcej</a></b></p>
+                </summary>
+                <summary class="zdjecie">
+                    <img src="papszun.png" class="ronaldo" alt="ronaldo">
+                    
+                </summary>    
+            </article>
+            <article class = "artykyul4">
+                <div class="ikona-zamknij">✖</div>
+                <summary class="tekst">
+                    <p><b>Burnley FC - Manchester United to mecz angielskiej Premier League. 
+                        Początek spotkania zaplanowano na sobotę, 23 września o godzinie 21:00. Czy Manchester United zanotuje zwycięstwo? A może to Burnley będzie cieszyć się ze zwycięstwa? Zapraszamy do śledzenia na żywo wyniku live. <a href="https://przegladsportowy.onet.pl/pilka-nozna/premier-league/burnley-fc-manchester-united-relacja-meczu-na-zywo-wynik-live-premier-league/q93bxl7">Czytaj więcej</a></b></p>
+                </summary>
+                <summary class="zdjecie">
+                    <img src="manutd.png" class="ronaldo" alt="ronaldo">
+                    
+                </summary>    
+            </article>
+            <section class="brak-artykulow">
+                Na tę chwilę nie mamy więcej artykułów.
+            </section>
+            <button id="pokazarykuly">Pokaż artykuły</button>
+        </section>
+   
+    <footer>
+        <img src="ikona.png" class="ikona" alt="">
+        <p class = "tekst-stopka"><b>BĄDŹ NA BIERZĄCO</b></p>
+        <div class="linia-pionowa"></div>
+        <section class = "lista">
+        <ul>
+            <b>    
+            <li>tel.613 321 542</li>
+            <li>e-mail: swiatfutbolu24@gmail.com</li>
+            <li>godziny kontaktu: 7-21</li>
+            <li>fax 764 212 437</li>
+         </ul>
+         <summary class = "wykonawca"><strong>Stronę wykonał:<br>
+         Wojciech Bednarek</strong></summary>
+        </b>
+         </section>
+    </footer>
+</body>
+</html>
